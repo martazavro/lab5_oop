@@ -1,11 +1,12 @@
-import org.junit.jupiter.api.AfterEach;
+import flowerstore.Flower;
+import flowerstore.FlowerType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class FlowerTest {
-    private Flower Flower;
+    private flowerstore.Flower Flower;
 
     @BeforeEach
     void setUp() {

@@ -1,3 +1,5 @@
+package flowerstore;
+
 public enum FlowerType {
     TULIP(1), ROSE(0), CHAMOMILE(2);
 

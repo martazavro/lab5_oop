@@ -1,10 +1,14 @@
+import flowerstore.Flower;
+import flowerstore.FlowerBucket;
+import flowerstore.FlowerPack;
+import flowerstore.FlowerType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class FlowerBucketTest {
-    private FlowerBucket FlowerBucket;
+    private flowerstore.FlowerBucket FlowerBucket;
     private FlowerPack flowerPack1;
     private FlowerPack flowerPack2;
 
